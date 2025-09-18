@@ -11,7 +11,8 @@ import "@styles/globals.css";
 import Tabs from "@/Tabs";
 import { PortalProvider } from "@gorhom/portal";
 
-Mapbox.setAccessToken("sk.eyJ1IjoicGF0cmlja3RyYW4wNDgiLCJhIjoiY21lb3F5bWFlMWdmdDJxb2FwOHoydTZ3MyJ9.mjq39Yh-lW2gpm2xX0esAg");
+// Get token from env
+Mapbox.setAccessToken("");
 
 export default function App() {
   const isDarkMode = useColorScheme() === "dark";
